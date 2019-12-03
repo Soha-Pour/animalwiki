@@ -8,13 +8,9 @@ $(document).ready(function() {
 
   if (userChoice === 1) {
     $("#turtles").show();
-  }
-
-   else if (userChoice === 2) {
+  } else if (userChoice === 2) {
     $("#snakes").show();
-  }
-
-  else (userChoice === 3) {
+  } else {
     $("#insects").show();
   }
 
